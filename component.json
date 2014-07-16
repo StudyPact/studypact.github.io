@@ -1,0 +1,7 @@
+{
+    "name": "studypact api documentation",
+    "description": "StudyPact API Documentation",
+    "version": "0.0.1",
+    "local": ["boot"],
+    "paths": ["lib"]
+}

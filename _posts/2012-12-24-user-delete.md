@@ -15,6 +15,8 @@ This method allows the user to delete himself. Alternatively call DELETE on **`/
 * The headers must include a **valid authentication token**.
 * **The body is omitted**.
 
+```Authentication: bearer h0ajDmWeN6fULyNpjKO9cTAtijZ8pNh1AWz6IZ9jLKXDjfGF4vzAN92cMs7xazIw```
+
 ### Response
 
 ```Status: 204 Deleted```

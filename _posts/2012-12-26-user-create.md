@@ -7,14 +7,14 @@ type: 'POST'
 layout: nil
 ---
 
-This method allows users to create a new thing.
+This method allows users to create a new User.
 
 ### Request
 
 * The headers must .
-* **The body can't be empty** and must include at least the name attribute, a `string` that will be used as the name of the thing.
+* **The body can't be empty** and must include at least a password and the email attribute.
+* **no authentication token required**.
 
-```Authentication: bearer TOKEN```
 ```{
     email: 'toby@studypact.com',
     password: 'secret password'

@@ -15,7 +15,7 @@ This method allows the user to update his data. Alternatively call PUT on **`/ap
 * The headers must include a **valid authentication token**.
 * **Not every field on the user can be updated**. 
 
-```Authentication: bearer f862f658-ad89-4fcb-995b-7a4c50554ff6```
+```Authentication: bearer h0ajDmWeN6fULyNpjKO9cTAtijZ8pNh1AWz6IZ9jLKXDjfGF4vzAN92cMs7xazIw```
 ```{
   email: "$EMAIL",
   paypal_email: "$EMAIL", 

@@ -8,12 +8,27 @@ layout: default
 
 <section id='content'>
 
-{% for post in site.posts reversed %}
-  <article class='{{ post.type }}'>
-    <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{% if post.type %}<code><b>{{ post.type }}</b> {{ post.path }}</code> {% endif %}{{ post.title }}</h2></a>
-    <section class='body'>
-      {{ post.content }}
-    </section>
-  </article>
-{% endfor %}
+  {% for category in site.categories %}
+    <h2>{{ category[0] }}</h2>
+    <ul class="posts">
+      {% for post in category[1] reversed %}
+        <article class='{{ post.type }}'>
+          <a name='{{ post.url }}' href='#{{ post.url }}'>
+            <h2>
+              {% if post.type %}
+                <code>
+                  <b>{{ post.type }}</b> 
+                  {{ post.path }}
+                </code> 
+              {% endif %}
+              {{ post.title }}
+            </h2>
+          </a>
+          <section class='body'>
+            {{ post.content }}
+          </section>
+        </article>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </section>

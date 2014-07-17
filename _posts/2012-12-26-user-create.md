@@ -16,17 +16,19 @@ This method allows users to create a new thing.
 
 ```Authentication: bearer TOKEN```
 ```{
-    name: 'My new thing'
+    email: 'toby@studypact.com',
+    password: 'secret password'
 }```
 
 ### Response
 
-**If succeeds**, returns the created thing.
+**If succeeds**, returns the created User.
 
 ```Status: 201 Created```
 ```{
-    id: new_thing,
-    name: 'My new thing'
+    id: $ID,
+    email: 'toby@studypact.com',
+    ...
 }```
 
 For errors responses, see the [response status codes documentation](#response-status-codes).

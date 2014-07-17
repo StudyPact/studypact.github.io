@@ -17,8 +17,6 @@ This method allows the user to delete himself. Alternatively call DELETE on **`/
 
 ### Response
 
-Sends back a collection of things.
-
 ```Status: 204 Deleted```
 
 For errors responses, see the [response status codes documentation](#response-status-codes).

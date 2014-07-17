@@ -11,7 +11,7 @@ This method allows users to create a new thing.
 
 ### Request
 
-* The headers must include a **valid authentication token**.
+* The headers must .
 * **The body can't be empty** and must include at least the name attribute, a `string` that will be used as the name of the thing.
 
 ```Authentication: bearer TOKEN```

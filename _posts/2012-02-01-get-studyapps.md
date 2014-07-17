@@ -1,7 +1,7 @@
 ---
 category: StudyApps
 path: '/api/studyapps'
-title: 'Get studyapps'
+title: 'Get Studyapps'
 type: 'GET'
 
 layout: nil

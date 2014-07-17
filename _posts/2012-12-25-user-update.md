@@ -1,5 +1,5 @@
 ---
-category: Stuff
+category: User
 path: '/api/users/me'
 title: 'Update a User'
 type: 'PUT'

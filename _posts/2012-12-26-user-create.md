@@ -1,7 +1,7 @@
 ---
-category: Stuff
-path: '/stuff'
-title: 'Post a thing'
+category: User
+path: '/api/users'
+title: 'Post a User'
 type: 'POST'
 
 layout: nil

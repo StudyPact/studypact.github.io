@@ -1,7 +1,7 @@
 ---
 category: StudyApps
 path: '/api/studyapps'
-title: 'Get all studyapps'
+title: 'Get studyapps'
 type: 'GET'
 
 layout: nil
@@ -11,7 +11,7 @@ This method retrieves all studyapps.
 
 ### Request
 
-* does not require a token
+* **no authentication token required**.
 
 ### Response
 
@@ -30,6 +30,7 @@ Sends back a collection of studyapps.
     "name": "Anki",
     "created": "2014-07-16T07:16:23.251Z"
   },
+  ...
 }```
 
 For errors responses, see the [response status codes documentation](#response-status-codes).
